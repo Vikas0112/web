@@ -5,7 +5,7 @@ pipeline {
   environment {
     // Change these to match your setup in Jenkins > Credentials
     DOCKER_REGISTRY = "docker.io"                    // or your registry host
-    DOCKER_REPO     = "your-dockerhub-user/staticsite" // e.g. myuser/staticsite
+    DOCKER_REPO     = "vikas0101/web" // e.g. myuser/staticsite
     SSH_TARGET      = "ubuntu@13.232.188.41"         // user@EC2_PUBLIC_IP
     SSH_KEY_CRED    = "ec2-ssh-key"                  // Jenkins SSH private key credential id
     DOCKER_CRED_ID  = "docker-hub-creds"             // username/password or token credential id
